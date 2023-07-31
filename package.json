@@ -3,7 +3,7 @@
   "version": "0.12.4",
   "private": true,
   "scripts": {
-    "build": "npm run build:ssg && npm run rss",
+    "build": "pnpm run build:ssg && pnpm run rss",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
@@ -11,10 +11,12 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.12.4",
-    "valaxy-theme-yun": "0.12.4"
+    "simple-icons": "^9.8.0",
+    "valaxy": "0.14.45",
+    "valaxy-theme-yun": "0.14.45"
   },
   "devDependencies": {
-    "typescript": "^4.8.4"
+    "@iconify-json/mdi": "^1.1.53",
+    "typescript": "^5.1.6"
   }
 }
