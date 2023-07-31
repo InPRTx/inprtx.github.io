@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@mdi/svg':
-    specifier: ^7.2.96
-    version: 7.2.96
   simple-icons:
     specifier: ^9.8.0
     version: 9.8.0
@@ -464,10 +461,6 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
-    dev: false
-
-  /@mdi/svg@7.2.96:
-    resolution: {integrity: sha512-rxzuSL2RSt/pWWnFnUFQi5GJArm2tHMhx20Gee3Ydn+xT2bqbR4syfgdPrq2b+j+n5LjC7C8Fb1QDM6LKeF0cA==}
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
